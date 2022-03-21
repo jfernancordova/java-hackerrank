@@ -15,4 +15,4 @@ Please don't copy the code. You can use them as reference.
     
  - [Problem Solving (Intermediate)](problem-solving-intermediate)
     - [Maximum Value](problem-solving-intermediate/maximum-value)
-    - [Renaming File](problem-solving-intermediate/renaming-file)
+    - [FIle Renaming](problem-solving-intermediate/file-renaming)

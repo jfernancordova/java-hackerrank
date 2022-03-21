@@ -1,4 +1,4 @@
-package practice.renaming_file;
+package practice.file_renaming;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
