@@ -8,7 +8,7 @@ import java.util.Arrays;
 public class Program {
 
     // O(n ^ 2) time | O(n) space
-    public static int renameFile(String newName, String oldName) {
+    public static int fileRenaming(String newName, String oldName) {
         int newNameLength = newName.length();
         int oldNameLength = oldName.length();
 
@@ -37,25 +37,25 @@ class ProgramTest {
 
     @Test
     void testCaseOne() {
-        int result = Program.renameFile("ccc", "cccc");
+        int result = Program.fileRenaming("ccc", "cccc");
         Assertions.assertEquals(4, result);
     }
 
     @Test
     void testCaseTwo() {
-        int result = Program.renameFile("abc", "abba");
+        int result = Program.fileRenaming("abc", "abba");
         Assertions.assertEquals(0, result);
     }
 
     @Test
     void testCaseThree() {
-        int result = Program.renameFile("rcz", "rrrrccccccccccccccccccccccccccccccccccccccccccccccczzzzzzzzzzcccccccccccccccczzzzzcccccccccczzzzzzzzzz");
+        int result = Program.fileRenaming("rcz", "rrrrccccccccccccccccccccccccccccccccccccccccccccccczzzzzzzzzzcccccccccccccccczzzzzcccccccccczzzzzzzzzz");
         Assertions.assertEquals(6060, result);
     }
 
     @Test
     void testCaseFour() {
-        int result = Program.renameFile("rrk", "eispnddxtnfqalswxsmksfooiwxynamdjxnsmkiewkwdpzjpkibcbbmzbiwpmjczcehtczqjzlkgyvszpuuvetdfluuhxpeopuxmdylaysttenjmcedcumoeeicjtxkkvxcxjowrcvlttsqhwkbbmigtqlovjgviyzgcqjvpvotwucsetidicyhtcmajphxyyooeovuxvuploklpbovqdwdypbxgajuqwadgeedjkgurhsxdvylmyfjqlwzldrouylqobsgemwdoibqvcyedfvqopfhkqmhusxqacoogjxcoxbfzlwcxfvqaavfegkcirqqgdyhljmaqzqifuaoubukypavebvdujgsulahkprfpnzqaqgvfdxwtqflceilpmszizfwbonxplcyqittpkpbcfsesgfbiqnipolefrelphjthqrzsphbnumgrifmwiztfuhqibgaxdvysyvgxlspminykbyumepubrxuoavyovdbielzdobgqcjznjbexalkghywioxzbvxzfcshcozmefwcrvyibjdfqvqmhxdpccjodlgvkplrfdedpzoprfeechwszhvcdooejlchcwcektfrdmowhsueavbrawmihzsnfhrafbqeawdixznppfwieaivtmpqzqtsvnvwjmgvhuesssaxgmoywdgvwiouzuqdebijcqycftaftuwtgxavemciuqmxenprpmyzrexshnvtesstwhytmatxbuzxpstpygfxphpfckjdbfbximeeswyndfhomcnwjtfruvzwbhlzbvebyeucepgcdpmghcibfxg");
+        int result = Program.fileRenaming("rrk", "eispnddxtnfqalswxsmksfooiwxynamdjxnsmkiewkwdpzjpkibcbbmzbiwpmjczcehtczqjzlkgyvszpuuvetdfluuhxpeopuxmdylaysttenjmcedcumoeeicjtxkkvxcxjowrcvlttsqhwkbbmigtqlovjgviyzgcqjvpvotwucsetidicyhtcmajphxyyooeovuxvuploklpbovqdwdypbxgajuqwadgeedjkgurhsxdvylmyfjqlwzldrouylqobsgemwdoibqvcyedfvqopfhkqmhusxqacoogjxcoxbfzlwcxfvqaavfegkcirqqgdyhljmaqzqifuaoubukypavebvdujgsulahkprfpnzqaqgvfdxwtqflceilpmszizfwbonxplcyqittpkpbcfsesgfbiqnipolefrelphjthqrzsphbnumgrifmwiztfuhqibgaxdvysyvgxlspminykbyumepubrxuoavyovdbielzdobgqcjznjbexalkghywioxzbvxzfcshcozmefwcrvyibjdfqvqmhxdpccjodlgvkplrfdedpzoprfeechwszhvcdooejlchcwcektfrdmowhsueavbrawmihzsnfhrafbqeawdixznppfwieaivtmpqzqtsvnvwjmgvhuesssaxgmoywdgvwiouzuqdebijcqycftaftuwtgxavemciuqmxenprpmyzrexshnvtesstwhytmatxbuzxpstpygfxphpfckjdbfbximeeswyndfhomcnwjtfruvzwbhlzbvebyeucepgcdpmghcibfxg");
         Assertions.assertEquals(339, result);
     }
 }
