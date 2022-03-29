@@ -1,6 +1,5 @@
 # Hackerrank Solutions
 ![made-with-java](https://img.shields.io/badge/Made%20with-Java-1f425f.svg)
-![problems-solved](https://img.shields.io/badge/Problems%20Solved-4/4-1abc9c.svg)
 
 A collection of Java solutions on HackerRank.
 
