@@ -1,7 +1,7 @@
 # HackerRank
 ![Language](https://img.shields.io/badge/language-Java-red.svg)&nbsp;
 
-Java Solutions for **Basic** and **Intermediate** Problem Solving certificate.
+Solutions for **Basic** and **Intermediate** Problem Solving certificate.
 
 ## Important
 Please don't copy the code. You can use them as reference.
