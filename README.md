@@ -1,7 +1,7 @@
-# Hackerrank Solutions
-![made-with-java](https://img.shields.io/badge/Made%20with-Java-1f425f.svg)
+# Hackerrank
+![Language](https://img.shields.io/badge/language-Java-red.svg)&nbsp;
 
-A collection of Java solutions on HackerRank.
+Java Solutions for **Basic** and **Intermediate** certificate.
 
 ## Important
 Please don't copy the code. You can use them as reference.
