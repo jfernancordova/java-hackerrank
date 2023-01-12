@@ -1,4 +1,4 @@
-# Hackerrank
+# HackerRank
 ![Language](https://img.shields.io/badge/language-Java-red.svg)&nbsp;
 
 Java Solutions for **Basic** and **Intermediate** certificate.
